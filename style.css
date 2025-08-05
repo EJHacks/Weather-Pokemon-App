@@ -19,17 +19,35 @@ h1 {
     text-align: center;
 }
 
+#pokemon-container{
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+}
+
+#Pokemon-Name {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
 footer {
     color: white;
     text-align: center;
     padding: 1rem;
 }
 
-/* Shrink image */
+
 .pokemon-image {
-    width: 150px;
+    width:  350px;
     height: auto;
     margin-top: 1rem;
 }
 
-
+#weather-name{
+    text-align: center;
+    color: white;
+}
