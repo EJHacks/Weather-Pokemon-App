@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Shrink image */
+.pokemon-image {
+    width: 150px;
+    height: auto;
+    margin-top: 1rem;
+}
+
+
