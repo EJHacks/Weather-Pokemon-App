@@ -2,9 +2,15 @@ body {
     display: flex;
     flex-direction: column;
     background-color: black;
+    color: white;
     min-height: 100vh;
     margin: 0;
     font-family: sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
 }
 
 main {
@@ -14,15 +20,19 @@ main {
     flex: 1;
 }
 
-h1 {
+footer {
     color: white;
     text-align: center;
+    padding: 1rem;
 }
 
 #pokemon-container{
     color: rgb(255, 255, 255);
     justify-content: center;
     text-align: center;
+
+    width: 350px;
+    height: 350px;
 }
 
 #Pokemon-Name {
@@ -34,20 +44,8 @@ h1 {
     font-size: 1.5rem;
 }
 
-footer {
-    color: white;
-    text-align: center;
-    padding: 1rem;
-}
-
-
 .pokemon-image {
     width:  350px;
     height: auto;
     margin-top: 1rem;
-}
-
-#weather-name{
-    text-align: center;
-    color: white;
 }
